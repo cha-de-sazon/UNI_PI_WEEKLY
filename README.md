@@ -1,1 +1,1 @@
-# University Excersises Repository
+# University Activities Repository
