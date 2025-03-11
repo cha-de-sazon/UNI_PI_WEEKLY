@@ -8,6 +8,6 @@ pesos = [a, b, c, d]
 
 caixas1 = [carga // peso for peso in pesos]
 
-caixas = [caixas1[0], caixas1[1] - (5 * caixas1[0]), caixas1[2] - (4 * caixas1[1]), caixas1[3] - (25 * caixas1[2])]
+caixas = [caixas1[0], caixas1[1] - ((a // b) * caixas1[0]), caixas1[2] - ((b // c) * caixas1[1]), caixas1[3] - ((c // d) * caixas1[2])]
 
 print(caixas)
