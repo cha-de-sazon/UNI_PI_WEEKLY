@@ -1,6 +1,6 @@
 d1 = 10
 d2 = 10
-t1 = float(input("Valor Total:"))
+t1 = float(input("Valor Total: "))
 
 def desconto(t, d1, d2):
     td = float(t - (t * (d1/100)))
