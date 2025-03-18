@@ -3,7 +3,7 @@ b = int(100)
 c = int(25)
 d = int(1)
 
-carga = int(input(":"))
+carga = int(input("Carga:"))
 pesos = [a, b, c, d]
 caixas = []
 
