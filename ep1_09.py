@@ -5,9 +5,11 @@ d = int(1)
 
 carga = int(input(":"))
 pesos = [a, b, c, d]
+caixas = []
 
-caixas1 = [carga // peso for peso in pesos]
-
-caixas = [caixas1[0], caixas1[1] - ((a // b) * caixas1[0]), caixas1[2] - ((b // c) * caixas1[1]), caixas1[3] - ((c // d) * caixas1[2])]
+for peso in pesos:
+    peso2 = int(pesos.index(peso) - 1)
+    caixa = (carga // peso) - ((pesos[peso2] // peso) * (carga // pesos[peso2]))
+    caixas.append(caixa)
 
 print(caixas)
