@@ -1,5 +1,5 @@
 a1 = int(input())
-r = int(input("Razão:"))
+r = int(input("Razão: "))
 n = int(input())
 
 def somapa(a1, r, n):
